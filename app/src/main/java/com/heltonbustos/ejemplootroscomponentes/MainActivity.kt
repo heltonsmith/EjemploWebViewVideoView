@@ -26,7 +26,8 @@ class MainActivity : AppCompatActivity() {
 
         //videoview
         val myVideoView: VideoView = findViewById(R.id.videoView)
-        val ruta:String = "android.resource://" + packageName + "/" + R.raw.video
+        //val ruta:String = "android.resource://" + packageName + "/" + R.raw.video
+        val ruta:String = "https://repository.ucatolica.edu.co/bitstream/10983/23782/11/Busqueda-base-bibliografica.mp4"
         val videoUri:Uri = Uri.parse(ruta)
         myVideoView.setVideoURI(videoUri)
 
